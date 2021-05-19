@@ -409,6 +409,56 @@
 					"kr" : "도트기"
 				},
 				{
+					"en": "CUSTOM 1",
+					"pt": "Magias",
+					"cn": "技能",
+					"jp": "スペル",
+					"de": "Zauber",
+					"es": "Hechizos",
+					"fr": "Sorts",
+					"kr": "스펠"
+				},
+				{
+					"en": "CUSTOM 2",
+					"pt": "Magias",
+					"cn": "技能",
+					"jp": "スペル",
+					"de": "Zauber",
+					"es": "Hechizos",
+					"fr": "Sorts",
+					"kr": "스펠"
+				},
+				{
+					"en": "CUSTOM 3",
+					"pt": "Magias",
+					"cn": "技能",
+					"jp": "スペル",
+					"de": "Zauber",
+					"es": "Hechizos",
+					"fr": "Sorts",
+					"kr": "스펠"
+				},
+				{
+					"en": "CUSTOM 4",
+					"pt": "Magias",
+					"cn": "技能",
+					"jp": "スペル",
+					"de": "Zauber",
+					"es": "Hechizos",
+					"fr": "Sorts",
+					"kr": "스펠"
+				},
+				{
+					"en": "CUSTOM 5 - DOTS",
+					"pt": "Magias",
+					"cn": "技能",
+					"jp": "スペル",
+					"de": "Zauber",
+					"es": "Hechizos",
+					"fr": "Sorts",
+					"kr": "스펠"
+				},
+				{
 					"en" : "General",
 					"pt" : "Geral",
 					"cn" : "通用",
@@ -1405,6 +1455,61 @@
 					"fr" : "Tank",
 					"kr" : "탱커",
 					"ua" : "Захисник"
+				},
+				"custom1": {
+					"en": "Custom 1",
+					"pt": "Custom 1",
+					"cn": "Custom 1",
+					"jp": "Custom 1",
+					"de": "Custom 1",
+					"es": "Custom 1",
+					"fr": "Custom 1",
+					"kr": "Custom 1",
+					"ua": "Ви"
+				},
+				"custom2": {
+					"en": "Custom 2",
+					"pt": "Custom 2",
+					"cn": "Custom 2",
+					"jp": "Custom 2",
+					"de": "Custom 2",
+					"es": "Custom 2",
+					"fr": "Custom 2",
+					"kr": "Custom 2",
+					"ua": "Ви"
+				},
+				"custom3": {
+					"en": "Custom 3",
+					"pt": "Custom 3",
+					"cn": "Custom 3",
+					"jp": "Custom 3",
+					"de": "Custom 3",
+					"es": "Custom 3",
+					"fr": "Custom 3",
+					"kr": "Custom 3",
+					"ua": "Ви"
+				},
+				"custom4": {
+					"en": "Custom 4",
+					"pt": "Custom 4",
+					"cn": "Custom 4",
+					"jp": "Custom 4",
+					"de": "Custom 4",
+					"es": "Custom 4",
+					"fr": "Custom 4",
+					"kr": "Custom 4",
+					"ua": "Ви"
+				},
+				"custom5": {
+					"en": "Custom 5",
+					"pt": "Custom 5",
+					"cn": "Custom 5",
+					"jp": "Custom 5",
+					"de": "Custom 5",
+					"es": "Custom 5",
+					"fr": "Custom 5",
+					"kr": "Custom 5",
+					"ua": "Ви"
 				}
 			},
 			"types" : {

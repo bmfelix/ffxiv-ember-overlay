@@ -108,7 +108,7 @@ class LocalizationService {
 	}
 
 	getSettingsSubsectionText(section, index) {
-		return SettingsLocales.sections[section].subsections[index][this.getLanguage()] || SettingsLocales.sections[section].subsections[index].en; 
+		return SettingsLocales.sections[section].subsections[index][this.getLanguage()] || SettingsLocales.sections[section].subsections[index].en;
 	}
 
 	getSettingText(key_path, language) {
@@ -120,7 +120,7 @@ class LocalizationService {
 	getPlayerShortNameOptions() {
 		let language = this.getLanguage();
 		let data_set = SettingsLocales.misc.short_name_options[language] || SettingsLocales.misc.short_name_options.en;
-		
+
 		return [
 			{
 				key   : "no_short",
@@ -167,7 +167,7 @@ class LocalizationService {
 
 			default:
 				return "";
-		}	
+		}
 	}
 
 	getoGCDSkillName(id, language) {
@@ -175,7 +175,7 @@ class LocalizationService {
 			return "";
 		}
 
-		language = language || this.getLanguage();		
+		language = language || this.getLanguage();
 
 		return SkillData.oGCDSkills[id].locales.name[language] || SkillData.oGCDSkills[id].locales.name.en;
 	}
@@ -279,9 +279,15 @@ class LocalizationService {
 		let language = this.getLanguage();
 		let options  = [];
 
+		let exclude = ['custom1-effect','custom1-dot','custom2-effect','custom2-dot','custom3-effect','custom3-dot','custom4-effect','custom4-dot','custom5-effect','custom5-skill'];
+
 		for (let role in SettingsLocales.misc.spells.roles) {
 			for (let type in SettingsLocales.misc.spells.types) {
 				let key = `${role}-${type}`;
+
+				if(exclude.includes(key)) {
+					continue;
+				}
 
 				options.push({
 					key     : key,
@@ -342,7 +348,7 @@ class LocalizationService {
 				text  : data_set[key]
 			});
 		}
-		
+
 		return options;
 	}
 
@@ -366,7 +372,7 @@ class LocalizationService {
 				text  : data_set[key]
 			});
 		}
-		
+
 		return options;
 	}
 
@@ -379,7 +385,7 @@ class LocalizationService {
 
 			info = info.replace(match, this.getMisc(key, language) || this.getSettingText(key, language));
 		}
-
+		console.log("info: " + info)
 		return info;
 	}
 
@@ -395,7 +401,7 @@ class LocalizationService {
 				text  : data_set[key]
 			});
 		}
-		
+
 		return options;
 	}
 
@@ -404,7 +410,7 @@ class LocalizationService {
 			return "";
 		}
 
-		language = language || this.getLanguage();		
+		language = language || this.getLanguage();
 
 		return ZoneData.Instances[id].locales.name[language] || ZoneData.Instances[id].locales.name.en;
 	}

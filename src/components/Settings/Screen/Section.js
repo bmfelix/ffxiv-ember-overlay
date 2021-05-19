@@ -35,7 +35,7 @@ class Section extends React.Component {
 
 		this.setState(state_data);
 	}
-	
+
 	componentDidMount() {
 		Array.prototype.forEach.call(document.querySelectorAll(".multiple.selection.standalone"), (el) => {
 			Sortable.create(
@@ -176,12 +176,12 @@ class Section extends React.Component {
 			</React.Fragment>
 		);
 	}
-	
+
 	handleChange(e, drag) {
 		e.target.key_path  = e.target.id || e.target.getAttribute("key_path");
 		e.target.selection = true;
 		e.target.drag      = drag;
-		
+
 		this.props.changeCallback(e.target, e.target);
 	}
 }

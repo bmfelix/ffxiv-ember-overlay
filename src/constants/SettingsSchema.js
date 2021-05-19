@@ -542,6 +542,141 @@ const SettingsSchema = {
 					{
 						settings : [
 							{
+								key_path : "spells_mode.custom1",
+								locale   : "spells_mode.spells",
+								type     : "select",
+								multiple : true,
+								search   : true,
+								options  : () => LocalizationService.getoGCDSkillOptions()
+							},
+							{
+								key_path : "spells_mode.reverse_skill",
+								locale   : "spells_mode.reverse_skill",
+								type     : "checkbox"
+							},
+							{
+								key_path : "spells_mode.always_skill",
+								locale   : "spells_mode.always_skill",
+								type     : "checkbox"
+							},
+							{
+								key_path : "spells_mode.always_skill_static",
+								locale   : "spells_mode.always_skill_static",
+								type     : "checkbox"
+							}
+						]
+					},
+					{
+						settings : [
+							{
+								key_path : "spells_mode.custom2",
+								locale   : "spells_mode.spells",
+								type     : "select",
+								multiple : true,
+								search   : true,
+								options  : () => LocalizationService.getoGCDSkillOptions()
+							},
+							{
+								key_path : "spells_mode.reverse_skill",
+								locale   : "spells_mode.reverse_skill",
+								type     : "checkbox"
+							},
+							{
+								key_path : "spells_mode.always_skill",
+								locale   : "spells_mode.always_skill",
+								type     : "checkbox"
+							},
+							{
+								key_path : "spells_mode.always_skill_static",
+								locale   : "spells_mode.always_skill_static",
+								type     : "checkbox"
+							}
+						]
+					},
+					{
+						settings : [
+							{
+								key_path : "spells_mode.custom3",
+								locale   : "spells_mode.spells",
+								type     : "select",
+								multiple : true,
+								search   : true,
+								options  : () => LocalizationService.getoGCDSkillOptions()
+							},
+							{
+								key_path : "spells_mode.reverse_skill",
+								locale   : "spells_mode.reverse_skill",
+								type     : "checkbox"
+							},
+							{
+								key_path : "spells_mode.always_skill",
+								locale   : "spells_mode.always_skill",
+								type     : "checkbox"
+							},
+							{
+								key_path : "spells_mode.always_skill_static",
+								locale   : "spells_mode.always_skill_static",
+								type     : "checkbox"
+							}
+						]
+					},
+					{
+						settings : [
+							{
+								key_path : "spells_mode.custom4",
+								locale   : "spells_mode.spells",
+								type     : "select",
+								multiple : true,
+								search   : true,
+								options  : () => LocalizationService.getoGCDSkillOptions()
+							},
+							{
+								key_path : "spells_mode.reverse_skill",
+								locale   : "spells_mode.reverse_skill",
+								type     : "checkbox"
+							},
+							{
+								key_path : "spells_mode.always_skill",
+								locale   : "spells_mode.always_skill",
+								type     : "checkbox"
+							},
+							{
+								key_path : "spells_mode.always_skill_static",
+								locale   : "spells_mode.always_skill_static",
+								type     : "checkbox"
+							}
+						]
+					},
+					{
+						settings : [
+							{
+								key_path : "spells_mode.custom5",
+								locale   : "spells_mode.dots",
+								type     : "select",
+								multiple : true,
+								search   : true,
+								options  : () => LocalizationService.getEffectOptions(true)
+							},
+							{
+								key_path : "spells_mode.reverse_dot",
+								locale   : "spells_mode.reverse_dot",
+								type     : "checkbox"
+							},
+							{
+								key_path : "spells_mode.always_dot",
+								locale   : "spells_mode.always_skill",
+								type     : "checkbox"
+							},
+							{
+								key_path : "spells_mode.always_dot_static",
+								locale   : "spells_mode.always_skill_static",
+								type     : "checkbox"
+							}
+						]
+					},
+					{
+						settings : [
+							{
 								key_path : "spells_mode.show_icon",
 								type     : "checkbox"
 							},

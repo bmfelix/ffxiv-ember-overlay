@@ -42,7 +42,7 @@ class Settings extends React.Component {
 		let streamer_text      = streamer_base_text.replace("{{number}}", streamer_count);
 
 		for (
-			let section of 
+			let section of
 			SettingsSchema.all_before.sections.concat(
 				SettingsSchema[this.props.mode].sections.concat(
 					SettingsSchema.all_after.sections)
